@@ -1,0 +1,708 @@
+{
+  "total_processed": 100,
+  "avg_compliance_score": 79.72,
+  "total_issues_found": 146,
+  "execution_time_seconds": 0.0,
+  "cases": [
+    {
+      "tender_id": "AP-TENDER-2026-001",
+      "project_name": "Procurement of Furniture for Agriculture",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-002",
+      "project_name": "Procurement of Furniture for Health",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-003",
+      "project_name": "Procurement of Furniture for Education",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-004",
+      "project_name": "Procurement of Civil Works for RTGS",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-005",
+      "project_name": "Procurement of Vehicles for Education",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-006",
+      "project_name": "Procurement of Vehicles for Infrastructure",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-007",
+      "project_name": "Procurement of Vehicles for Education",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-008",
+      "project_name": "Procurement of Furniture for RTGS",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-009",
+      "project_name": "Procurement of Civil Works for Education",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-010",
+      "project_name": "Procurement of Medical Supplies for Education",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-011",
+      "project_name": "Procurement of Civil Works for Agriculture",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-012",
+      "project_name": "Procurement of Medical Supplies for Education",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-013",
+      "project_name": "Procurement of Furniture for Health",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-014",
+      "project_name": "Procurement of Vehicles for Infrastructure",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-015",
+      "project_name": "Procurement of Medical Supplies for Infrastructure",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-016",
+      "project_name": "Procurement of Civil Works for Education",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-017",
+      "project_name": "Procurement of Medical Supplies for Infrastructure",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-018",
+      "project_name": "Procurement of Medical Supplies for RTGS",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-019",
+      "project_name": "Procurement of Furniture for Health",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-020",
+      "project_name": "Procurement of Civil Works for Education",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-021",
+      "project_name": "Procurement of Vehicles for Infrastructure",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-022",
+      "project_name": "Procurement of Medical Supplies for Agriculture",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-023",
+      "project_name": "Procurement of Vehicles for Infrastructure",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-024",
+      "project_name": "Procurement of Medical Supplies for Agriculture",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-025",
+      "project_name": "Procurement of Furniture for Infrastructure",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-026",
+      "project_name": "Procurement of Medical Supplies for Agriculture",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-027",
+      "project_name": "Procurement of Vehicles for Infrastructure",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-028",
+      "project_name": "Procurement of IT Equipment for Agriculture",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-029",
+      "project_name": "Procurement of Civil Works for Education",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-030",
+      "project_name": "Procurement of Medical Supplies for Agriculture",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-031",
+      "project_name": "Procurement of Civil Works for RTGS",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-032",
+      "project_name": "Procurement of IT Equipment for Agriculture",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-033",
+      "project_name": "Procurement of Vehicles for Health",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-034",
+      "project_name": "Procurement of Furniture for RTGS",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-035",
+      "project_name": "Procurement of Medical Supplies for RTGS",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-036",
+      "project_name": "Procurement of Civil Works for Agriculture",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-037",
+      "project_name": "Procurement of Furniture for Infrastructure",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-038",
+      "project_name": "Procurement of Furniture for Education",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-039",
+      "project_name": "Procurement of Furniture for Agriculture",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-040",
+      "project_name": "Procurement of Vehicles for Infrastructure",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-041",
+      "project_name": "Procurement of Civil Works for RTGS",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-042",
+      "project_name": "Procurement of IT Equipment for RTGS",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-043",
+      "project_name": "Procurement of Vehicles for Health",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-044",
+      "project_name": "Procurement of IT Equipment for Agriculture",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-045",
+      "project_name": "Procurement of Vehicles for RTGS",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-046",
+      "project_name": "Procurement of Medical Supplies for Education",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-047",
+      "project_name": "Procurement of IT Equipment for RTGS",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-048",
+      "project_name": "Procurement of Furniture for Agriculture",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-049",
+      "project_name": "Procurement of Vehicles for Health",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-050",
+      "project_name": "Procurement of Furniture for RTGS",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-051",
+      "project_name": "Procurement of Medical Supplies for Infrastructure",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-052",
+      "project_name": "Procurement of Medical Supplies for RTGS",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-053",
+      "project_name": "Procurement of Furniture for RTGS",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-054",
+      "project_name": "Procurement of IT Equipment for RTGS",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-055",
+      "project_name": "Procurement of Furniture for Infrastructure",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-056",
+      "project_name": "Procurement of Medical Supplies for Education",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-057",
+      "project_name": "Procurement of Vehicles for Education",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-058",
+      "project_name": "Procurement of IT Equipment for Health",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-059",
+      "project_name": "Procurement of Civil Works for Agriculture",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-060",
+      "project_name": "Procurement of Medical Supplies for Infrastructure",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-061",
+      "project_name": "Procurement of Civil Works for Education",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-062",
+      "project_name": "Procurement of Furniture for Health",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-063",
+      "project_name": "Procurement of Vehicles for Infrastructure",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-064",
+      "project_name": "Procurement of Medical Supplies for Infrastructure",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-065",
+      "project_name": "Procurement of Furniture for Infrastructure",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-066",
+      "project_name": "Procurement of IT Equipment for Health",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-067",
+      "project_name": "Procurement of Vehicles for RTGS",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-068",
+      "project_name": "Procurement of Vehicles for Agriculture",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-069",
+      "project_name": "Procurement of Civil Works for Agriculture",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-070",
+      "project_name": "Procurement of Medical Supplies for Education",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-071",
+      "project_name": "Procurement of Furniture for Education",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-072",
+      "project_name": "Procurement of Furniture for Agriculture",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-073",
+      "project_name": "Procurement of Civil Works for RTGS",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-074",
+      "project_name": "Procurement of Medical Supplies for Infrastructure",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-075",
+      "project_name": "Procurement of IT Equipment for RTGS",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-076",
+      "project_name": "Procurement of Vehicles for RTGS",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-077",
+      "project_name": "Procurement of Civil Works for Agriculture",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-078",
+      "project_name": "Procurement of Medical Supplies for Education",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-079",
+      "project_name": "Procurement of Furniture for RTGS",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-080",
+      "project_name": "Procurement of Civil Works for RTGS",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-081",
+      "project_name": "Procurement of Civil Works for Education",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-082",
+      "project_name": "Procurement of Furniture for Health",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-083",
+      "project_name": "Procurement of Vehicles for Health",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-084",
+      "project_name": "Procurement of Medical Supplies for Agriculture",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-085",
+      "project_name": "Procurement of Furniture for Education",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-086",
+      "project_name": "Procurement of Medical Supplies for Infrastructure",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-087",
+      "project_name": "Procurement of Vehicles for Health",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-088",
+      "project_name": "Procurement of Medical Supplies for Agriculture",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-089",
+      "project_name": "Procurement of Medical Supplies for Agriculture",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-090",
+      "project_name": "Procurement of Civil Works for Infrastructure",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-091",
+      "project_name": "Procurement of Vehicles for RTGS",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-092",
+      "project_name": "Procurement of Civil Works for Education",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-093",
+      "project_name": "Procurement of Furniture for Infrastructure",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-094",
+      "project_name": "Procurement of Vehicles for Education",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-095",
+      "project_name": "Procurement of Furniture for Health",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-096",
+      "project_name": "Procurement of Furniture for RTGS",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-097",
+      "project_name": "Procurement of Civil Works for Infrastructure",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-098",
+      "project_name": "Procurement of Medical Supplies for Infrastructure",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-099",
+      "project_name": "Procurement of Furniture for Infrastructure",
+      "score": 75.0,
+      "issues_count": 2,
+      "processed_at": "2026-03-13 11:39:03"
+    },
+    {
+      "tender_id": "AP-TENDER-2026-100",
+      "project_name": "Procurement of Civil Works for Agriculture",
+      "score": 83.75,
+      "issues_count": 1,
+      "processed_at": "2026-03-13 11:39:03"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 20% 98%;
+    --foreground: 215 25% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 15%;
+
+    --primary: 214 67% 35%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 30% 93%;
+    --secondary-foreground: 214 67% 35%;
+
+    --muted: 210 20% 95%;
+    --muted-foreground: 215 15% 50%;
+
+    --accent: 210 30% 90%;
+    --accent-foreground: 214 67% 30%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 20% 88%;
+    --input: 214 20% 88%;
+    --ring: 214 67% 35%;
+
+    --radius: 0.5rem;
+
+    /* Government-specific tokens */
+    --gov-blue: 214 67% 35%;
+    --gov-blue-light: 214 60% 50%;
+    --gov-blue-dark: 214 70% 25%;
+    --gov-green: 142 60% 40%;
+    --gov-green-light: 142 50% 55%;
+    --gov-yellow: 38 92% 50%;
+    --gov-yellow-light: 38 80% 60%;
+    --gov-orange: 25 90% 50%;
+    --gov-red: 0 72% 51%;
+    --gov-red-light: 0 65% 60%;
+
+    --sidebar-background: 214 70% 25%;
+    --sidebar-foreground: 210 20% 95%;
+    --sidebar-primary: 0 0% 100%;
+    --sidebar-primary-foreground: 214 70% 25%;
+    --sidebar-accent: 214 60% 32%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 214 50% 35%;
+    --sidebar-ring: 214 67% 50%;
+  }
+
+  .dark {
+    --background: 215 25% 10%;
+    --foreground: 210 20% 95%;
+    --card: 215 25% 14%;
+    --card-foreground: 210 20% 95%;
+    --popover: 215 25% 14%;
+    --popover-foreground: 210 20% 95%;
+    --primary: 214 60% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 215 25% 20%;
+    --secondary-foreground: 210 20% 90%;
+    --muted: 215 20% 18%;
+    --muted-foreground: 215 15% 60%;
+    --accent: 215 25% 22%;
+    --accent-foreground: 210 20% 95%;
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 215 20% 22%;
+    --input: 215 20% 22%;
+    --ring: 214 60% 50%;
+    --sidebar-background: 215 30% 8%;
+    --sidebar-foreground: 210 20% 90%;
+    --sidebar-primary: 214 60% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 215 25% 15%;
+    --sidebar-accent-foreground: 210 20% 90%;
+    --sidebar-border: 215 20% 18%;
+    --sidebar-ring: 214 60% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-roboto overflow-x-hidden;
+    width: 100%;
+    position: relative;
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+}
+@layer utilities {
+  .animate-slide-up {
+    animation: slide-up 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+  
+  .animate-fade-in {
+    opacity: 0;
+    animation: fade-in 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+
+  .animate-spin-slow {
+    animation: spin 8s linear infinite;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
