@@ -13,8 +13,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def clean_db_url(url: str) -> str:
-    if not url:
-        return url
+    if not url or not isinstance(url, str) or len(url.strip()) < 5:
+        print("DEBUG: DATABASE_URL is empty or invalid. Falling back to SQLite.")
+        return "sqlite:///./rtgs_procurement.db"
+    
     # Remove whitespace and quotes
     url = url.strip().strip('"').strip("'")
     # Fix Render/Heroku 'postgres://' vs SQLAlchemy 'postgresql://'
@@ -25,7 +27,7 @@ def clean_db_url(url: str) -> str:
     if url.startswith("postgresql"):
         print(f"DEBUG: Using PostgreSQL connection (length: {len(url)})")
     else:
-        print(f"DEBUG: Using fallback/other connection: {url[:10]}...")
+        print(f"DEBUG: Using other connection type: {url.split(':')[0]}...")
         
     return url
 
