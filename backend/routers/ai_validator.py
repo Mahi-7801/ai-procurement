@@ -741,6 +741,7 @@ def get_local_analysis(context: dict, error: str = None):
     found_vague = {k: v for k, v in vague_patterns.items() if k in text}
 
     if found_vague:
+        vague_terms_str = ", ".join(f'"{k}"' for k in found_vague.keys())
         results.append({
             "id": f"clarity-vague-{issue_id}",
             "category": "Clarity",
@@ -748,7 +749,7 @@ def get_local_analysis(context: dict, error: str = None):
             "title": f"Ambiguous Language Detected ({len(found_vague)} terms)",
             "status": "warning",
             "score": 55,
-            "message": f"Vague terms found: {', '.join(f'\"{k}\"' for k in found_vague.keys())}. These create interpretation gaps that lead to vendor disputes and CVC objections.",
+            "message": f"Vague terms found: {vague_terms_str}. These create interpretation gaps that lead to vendor disputes and CVC objections.",
             "correction": " | ".join(found_vague.values()),
             "message_telugu": f"అస్పష్టమైన పదాలు కనుగొనబడ్డాయి: {', '.join(found_vague.keys())}. ఇవి వెండర్ వివాదాలకు దారితీస్తాయి.",
             "correction_telugu": "అన్ని అస్పష్టమైన పదాలను స్పష్టమైన, కొలవదగిన అవసరాలతో భర్తీ చేయండి.",
