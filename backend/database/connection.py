@@ -12,17 +12,28 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+def clean_db_url(url: str) -> str:
+    if not url:
+        return url
+    # Remove whitespace
+    url = url.strip()
+    # Fix Render/Heroku 'postgres://' vs SQLAlchemy 'postgresql://'
+    if url.startswith("postgres://"):
+        url = url.replace("postgres://", "postgresql://", 1)
+    return url
+
 # Primary Database configuration (SQLite fallback for portability)
-DATABASE_URL = os.getenv(
+DATABASE_URL = clean_db_url(os.getenv(
     "DATABASE_URL",
     "sqlite:///./rtgs_procurement.db"
-)
+))
 
 # Historical Database configuration (SQLite fallback)
-HISTORICAL_DATABASE_URL = os.getenv(
+HISTORICAL_DATABASE_URL = clean_db_url(os.getenv(
     "HISTORICAL_DATABASE_URL",
     "sqlite:///./historical_tenders.db"
-)
+))
+
 
 # Create engines
 # For SQLite, we need connect_args={"check_same_thread": False}
