@@ -13,11 +13,21 @@ We recommend using **Render**, **Railway**, or **Fly.io** for the backend.
 - A PostgreSQL database (e.g., **Neon.tech**).
 
 ### Deployment Steps (Render Example)
+There are two ways to deploy on Render:
+
+#### Option A: Native Python (Simplest)
 1. **New Web Service**: Connect your GitHub repository.
 2. **Root Directory**: Select `backend`.
 3. **Language**: `Python`.
 4. **Build Command**: `pip install -r requirements.txt`.
 5. **Start Command**: `uvicorn main:app --host 0.0.0.0 --port $PORT`.
+
+#### Option B: Docker (Recommended for Consistency)
+1. **New Web Service**: Connect your GitHub repository.
+2. **Root Directory**: Select `backend`.
+3. **Language**: `Docker`.
+4. Render will automatically detect the `Dockerfile` in the `backend` folder.
+
 6. **Environment Variables**:
    - `DATABASE_URL`: Your PostgreSQL connection string (from Neon).
    - `JWT_SECRET`: A long random string.
