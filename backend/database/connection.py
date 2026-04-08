@@ -15,11 +15,18 @@ load_dotenv()
 def clean_db_url(url: str) -> str:
     if not url:
         return url
-    # Remove whitespace
-    url = url.strip()
+    # Remove whitespace and quotes
+    url = url.strip().strip('"').strip("'")
     # Fix Render/Heroku 'postgres://' vs SQLAlchemy 'postgresql://'
     if url.startswith("postgres://"):
         url = url.replace("postgres://", "postgresql://", 1)
+    
+    # Debug log (sanitized)
+    if url.startswith("postgresql"):
+        print(f"DEBUG: Using PostgreSQL connection (length: {len(url)})")
+    else:
+        print(f"DEBUG: Using fallback/other connection: {url[:10]}...")
+        
     return url
 
 # Primary Database configuration (SQLite fallback for portability)
